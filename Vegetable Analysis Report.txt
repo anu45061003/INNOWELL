@@ -1,0 +1,41 @@
+Vegetable Analysis Report
+1. Sending an Input Document
+Description:
+The client requires an easy way to share their input document with the application for processing.
+
+The input document, such as a PDF (e.g., "Vegetable Analysis Report"), must be attached to an email.
+The email serves as the primary medium for communication with the application.
+Purpose:
+Simplify the workflow for the client by enabling document submission through a widely used and familiar tool: email.
+
+2. Receiving a Budget Document
+Description:
+After submitting the input document, the client expects a processed budget document to be sent back via email.
+
+The budget document may include detailed data analysis, pricing, or other relevant outputs derived from the input document.
+Purpose:
+Provide quick and convenient access to results without requiring additional steps from the client.
+
+Procedure to Convert PDF to Text
+Step 1: Invoke the Mailbox
+Monitor the mailbox for incoming client emails.
+Use automation tools or scripts to identify new email arrivals.
+Step 2: Process New Emails
+Extract relevant information:
+Sender’s email address (e.g., sudhaanu563@outlook.com from the uploaded example).
+Attached documents like the "Vegetable Analysis Report."
+Step 3: Download the PDF Attachment
+Save the PDF file locally for processing.
+Step 4: Convert the PDF
+Use tools or libraries to extract content from the PDF.
+Transform the extracted text into structured formats, such as .xlsx and .pdf.
+Retain essential information (e.g., commodity data, pricing, availability from the report).
+Step 5: Reply with Converted Documents
+Attach the newly generated documents to a reply email.
+Send the email back to the original sender.
+
+
+
+
+
+
