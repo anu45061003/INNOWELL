@@ -1,38 +1,117 @@
 Vegetable Analysis Report
-1. Sending an Input Document
-Description:
-The client requires an easy way to share their input document with the application for processing.
+Overview
 
-The input document, such as a PDF (e.g., "Vegetable Analysis Report"), must be attached to an email.
-The email serves as the primary medium for communication with the application.
-Purpose:
-Simplify the workflow for the client by enabling document submission through a widely used and familiar tool: email.
+Vegetable Analysis  Estimation is a project designed to facilitate the seamless exchange of documents between clients and an application via email. The project automates the process of receiving input documents, processing them, and returning the required outputs in a structured format.
 
-2. Receiving a Budget Document
-Description:
-After submitting the input document, the client expects a processed budget document to be sent back via email.
+Features
 
-The budget document may include detailed data analysis, pricing, or other relevant outputs derived from the input document.
-Purpose:
-Provide quick and convenient access to results without requiring additional steps from the client.
+Sending an Input Document:
+Clients can send input documents, such as PDFs, by attaching them to an email. This simplifies the document submission process.
 
-Procedure to Convert PDF to Text
-Step 1: Invoke the Mailbox
-Monitor the mailbox for incoming client emails.
-Use automation tools or scripts to identify new email arrivals.
-Step 2: Process New Emails
-Extract relevant information:
-Sender’s email address (e.g., sudhaanu563@outlook.com from the uploaded example).
-Attached documents like the "Vegetable Analysis Report."
-Step 3: Download the PDF Attachment
-Save the PDF file locally for processing.
-Step 4: Convert the PDF
-Use tools or libraries to extract content from the PDF.
-Transform the extracted text into structured formats, such as .xlsx and .pdf.
-Retain essential information (e.g., commodity data, pricing, availability from the report).
-Step 5: Reply with Converted Documents
-Attach the newly generated documents to a reply email.
-Send the email back to the original sender.
+Receiving a  Report Document:
+After processing the input, clients receive the budget document as a reply email. The output includes the required analysis or transformed data in .xlsx and .pdf formats.
+
+Automated Workflow:
+The application automates the entire workflow from email monitoring to document processing and response generation.
+
+Workflow
+
+Invoke the Mailbox:
+
+Monitor the mailbox for incoming emails from clients.
+
+Process New Emails:
+
+Identify the sender’s email address and detect any attached documents.
+
+Download the PDF Attachment:
+
+Extract and save the attached PDF file for further processing.
+
+Convert the PDF:
+
+Transform the PDF content into .xlsx and .pdf formats as per the required structure.
+
+Reply with Converted Documents:
+
+Attach the processed documents to a reply email and send them back to the client.
+
+Example Use Case
+
+Input Document:
+
+Vegetable Analysis Report (Example):
+
+Details various commodities, their quantities, pricing, and seasonal availability.
+
+Example Fields:
+
+Tomato: 198 MT, ₹10/kg, available year-round.
+
+Onion: 228 MT, ₹7/kg, available in Kharif and Rabi seasons.
+
+Output Document:
+
+A structured .xlsx or .pdf file containing analyzed or reformatted data, ready for client use.
+
+Evaluation Criteria
+
+The project is assessed based on:
+
+Requirement Understanding (30%):
+
+Clarity and completeness in understanding the client’s needs.
+
+Code Quality (40%):
+
+Code structure, readability, maintainability, and efficiency.
+
+Output (30%):
+
+Accuracy and usability of the processed documents.
+
+Technologies Used
+
+Programming Language: Python
+
+Libraries: For email handling, PDF processing, and Excel creation.
+
+Tools: Email clients, automation scripts.
+
+How to Use
+
+Clone the repository:
+
+git clone <repository-url>
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Configure email settings and document templates in the provided configuration file.
+
+Run the application:
+
+python main.py
+
+Future Enhancements
+
+Support for additional document formats.
+
+Improved error handling and logging.
+
+Integration with cloud storage for document archiving.
+
+License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Contributors
+
+Your Name
+
+Feel free to contribute by creating pull requests or submitting issues!
+
 
 
 
