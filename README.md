@@ -66,7 +66,7 @@ Code Quality (40%):
 
 Code structure, readability, maintainability, and efficiency.
 
-Output (30%):
+Output (90%):
 
 Accuracy and usability of the processed documents.
 
